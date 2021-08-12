@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005A57EC26C3735A004F0093 /* Opcion2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A57EB26C3735A004F0093 /* Opcion2ViewController.swift */; };
+		005A57EE26C37387004F0093 /* Opcion3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A57ED26C37387004F0093 /* Opcion3ViewController.swift */; };
+		005A57F026C37DEC004F0093 /* Cuadrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A57EF26C37DEC004F0093 /* Cuadrado.swift */; };
 		007F48BD26BB9EC8005DC0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F48BC26BB9EC8005DC0C5 /* AppDelegate.swift */; };
 		007F48BF26BB9EC8005DC0C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F48BE26BB9EC8005DC0C5 /* SceneDelegate.swift */; };
 		007F48C126BB9EC8005DC0C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F48C026BB9EC8005DC0C5 /* ViewController.swift */; };
 		007F48C426BB9EC8005DC0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007F48C226BB9EC8005DC0C5 /* Main.storyboard */; };
 		007F48C626BB9ECB005DC0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007F48C526BB9ECB005DC0C5 /* Assets.xcassets */; };
 		007F48C926BB9ECB005DC0C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007F48C726BB9ECB005DC0C5 /* LaunchScreen.storyboard */; };
+		007F48D126C0E2CC005DC0C5 /* Opcion1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F48D026C0E2CC005DC0C5 /* Opcion1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005A57EB26C3735A004F0093 /* Opcion2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opcion2ViewController.swift; sourceTree = "<group>"; };
+		005A57ED26C37387004F0093 /* Opcion3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opcion3ViewController.swift; sourceTree = "<group>"; };
+		005A57EF26C37DEC004F0093 /* Cuadrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuadrado.swift; sourceTree = "<group>"; };
 		007F48B926BB9EC8005DC0C5 /* Tarea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007F48BC26BB9EC8005DC0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007F48BE26BB9EC8005DC0C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		007F48C526BB9ECB005DC0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007F48C826BB9ECB005DC0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007F48CA26BB9ECB005DC0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007F48D026C0E2CC005DC0C5 /* Opcion1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opcion1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				007F48C526BB9ECB005DC0C5 /* Assets.xcassets */,
 				007F48C726BB9ECB005DC0C5 /* LaunchScreen.storyboard */,
 				007F48CA26BB9ECB005DC0C5 /* Info.plist */,
+				007F48D026C0E2CC005DC0C5 /* Opcion1ViewController.swift */,
+				005A57EB26C3735A004F0093 /* Opcion2ViewController.swift */,
+				005A57ED26C37387004F0093 /* Opcion3ViewController.swift */,
+				005A57EF26C37DEC004F0093 /* Cuadrado.swift */,
 			);
 			path = Tarea;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			files = (
 				007F48C126BB9EC8005DC0C5 /* ViewController.swift in Sources */,
 				007F48BD26BB9EC8005DC0C5 /* AppDelegate.swift in Sources */,
+				007F48D126C0E2CC005DC0C5 /* Opcion1ViewController.swift in Sources */,
 				007F48BF26BB9EC8005DC0C5 /* SceneDelegate.swift in Sources */,
+				005A57EE26C37387004F0093 /* Opcion3ViewController.swift in Sources */,
+				005A57EC26C3735A004F0093 /* Opcion2ViewController.swift in Sources */,
+				005A57F026C37DEC004F0093 /* Cuadrado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
